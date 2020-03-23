@@ -48,7 +48,7 @@ const Main = ({ navigation }: { navigation: Navigation }) => {
     setLoading(false)
 
     const { docs: newDocs, ...newProductInfo } = response.data
-    console.log(docs, newDocs)
+
     setPage(newPage)
     setDocs([...docs, ...newDocs])
     setProductInfo(newProductInfo)

@@ -19,7 +19,6 @@ const Main = ({ navigation }) => {
         const response = await api.get(`/products?page=${newPage}`);
         setLoading(false);
         const { docs: newDocs, ...newProductInfo } = response.data;
-        console.log(docs, newDocs);
         setPage(newPage);
         setDocs([...docs, ...newDocs]);
         setProductInfo(newProductInfo);

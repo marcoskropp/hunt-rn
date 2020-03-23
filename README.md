@@ -8,7 +8,7 @@ $ yarn
 # Running
 
 Compile ts code in js code in runtime
-$ yarn typescript-watch
+$ yarn ts:watch
 
 Runs your app
 $ yarn start
