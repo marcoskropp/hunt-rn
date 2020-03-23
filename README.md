@@ -3,7 +3,7 @@
 Native application, developed in react native during the starter course from Rocketseat
 
 # Install dependencies
-$yarn
+$ yarn
 
 # Running
 
