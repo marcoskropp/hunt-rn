@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types"],
+    "target": "esnext",
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "jsx": "react-native",
+    "outDir": "dist",
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "types": [
+      "react",
+      "jest",
+      "node"
+    ]
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+	  "android",
+	  "ios",
+	  "dist",
+	  "node_modules"
+   ],
+   "jsx": "react",
+  "lib": ["es2015", "dom.iterable", "es2016.array.include", "es2017.object", "dom"],
+  "module": "es6",
+  "moduleResolution": "node",
+
+}
